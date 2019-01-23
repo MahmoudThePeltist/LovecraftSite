@@ -1,0 +1,93 @@
+body {
+	background-image:url("pics/blackbackpat.png");
+	background-repeat:true;
+	background-color:black;
+}
+	
+header{
+	background-image:url("pics/backpat.png");
+	background-repeat:true;
+	background-color:#dd0000;
+	padding:30px;
+	max-width:1500px;
+	max-height:600px;
+	margin:auto;
+	position:center;
+	border-radius:30px;
+	overflow:hidden;
+	border-bottom:15px solid darkred;
+}
+nav{
+	background-color:#880000;
+	font-size:150%;
+	width:70%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+nav a{
+	font-family:calibri;
+	text-decoration:none;
+	color:white;
+	margin:10px 0px 10px 0px;
+	padding:0px 10px 13px 10px;
+	transition:all 0.5s;
+}
+nav a:hover{background-color:#550000;color:white;}
+nav a:focus{background-color:#550000;color:white;}
+nav a.active{background-color:#550000;}
+div.titlecard{display:none;}
+
+img#banner2{max-height:220px;width:60%;}
+
+section{
+	background-color:darkred;
+	margin:auto;
+	width:90%;
+	position:center;
+	overflow:hidden;
+	max-width:1290px;
+	padding:10px;
+	margin:auto;
+	height:auto; 
+}
+li a {color: white;font-size:125%;text-align: center;padding: 16px;text-decoration: none;overflow:hidden; transition:all 0.25s;}
+li a:hover {background-color:lightgrey; color:black; overflow:hidden;}
+
+
+
+
+div.ImageDiv {
+	position: relative;
+	display:inline-block;
+	margin:10px 30px;
+	overflow:hidden;
+	height:250px;width:275px;
+	padding:5px;
+	text-align:center;font-family:calibri;
+	border: 1px solid #fff;background-color:#dd0000;border-radius:5px;
+	filter:brightness(1);/*default*/
+	transition:all 3s;}
+div.ImageDiv:hover {filter:brightness(1.2); border: 5px solid #440000;	
+height:450px; width:550px; font-size:160%;background-color:#990000;}
+div.ImageDiv:hover  img{size:auto; max-height:390px; max-width:550px;}
+
+img.ImageDiv{size:auto; max-height:200px; max-width:250px; border-radius:5px; 
+transition:all 3s;}
+
+div a {color: #330000; display:inline-block; font-size:100%; text-align:center; text-decoration:none;}
+div a:hover{color:#331111; background-color:}
+
+
+footer{
+	background-image:url("pics/backpat.png");
+	background-repeat:true;
+	background-color:red;
+	padding:30px;
+	font-family:Freestyle Script;
+	font-size:150%;
+	max-width:1500px;
+	margin:auto;
+	position:center;
+	border-top:5px solid darkred;
+	border-radius:30px;
+	overflow:hidden;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" style="text/css" href="stories.css">
+</head>
+
+<body>
+	<header>
+		<nav id="storyNav">
+			<a href="../Index.html">Main </a><a href="../Stories.html"> Stories Index </a><a href="../Contact.html"> Contact Me </a><a href="../About.html"> About</a>
+			<button id="darkbut" type="button" onclick="blackCSS()">Dark Mode</button>
+			<button id="lightbut" type="button" onclick="whiteCSS()">Light Mode</button>
+			<button id="redbut" type="button" onclick="redCSS()">Red Mode</button>
+			<hr>
+		</nav>
+		<div class="titlecard">
+			<h1></h1>
+			<h2>by H. P. Lovecraft</h2>
+			<h3></h3>
+			<h4></h4>
+		</div>
+	</header>
+
+	<section>
+		<div class="storyhold">
+			#story goes here
+		</div>
+	</section>
+
+	<footer>
+		<br>
+		<p>Back to <a href="../Stories.html">story index</a> or go to <a href="#top">Top</a></p>
+	</footer>
+	<script>
+		function blackCSS(){
+			document.getElementById('styles').href ='darkstories.css';
+		}
+		function whiteCSS(){
+			document.getElementById('styles').href ='lightstories.css';
+		}
+		function redCSS(){
+			document.getElementById('styles').href ='stories.css';
+		}
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+body {
+	background-image:url("../pics/blackbackpat.png");
+	background-repeat:true;
+	background-color:black;
+}
+
+header{
+	background-image:url("../pics/backpat.png");
+	background-repeat:true;
+	background-color:#dd0000;
+	padding:30px;
+	max-width:1500px;
+	margin:auto;
+	position:center;
+	border-radius:30px;
+	overflow:hidden;
+	border-bottom:15px solid darkred;
+}
+nav{
+	background-color:#880000;
+	font-size:150%;
+	width:70%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+div.titlecard{
+	font-family:Informal Roman;
+	font-size:150%;
+	line-height:20px;
+	letter-spacing:2px;
+}
+nav a{
+	font-family:calibri;
+	text-decoration:none;
+	color:white;
+	margin:10px 0px 10px 0px;
+	padding:0px 10px 13px 10px;
+	transition:all 0.5s;
+}
+nav a:hover{
+	background-color:#550000;
+	color:white;
+}
+section{
+	background-color:darkred;
+	padding:30px;
+	max-width:1200px;
+	margin:auto;
+	position:center;
+	overflow:hidden;
+}
+pre.storyhold{
+	font-family:Calibri;
+	font-size:150%;
+	font-stretch: expanded;
+	color:white;
+}
+footer{
+	background-image:url("../pics/backpat.png");
+	background-repeat:true;
+	background-color:red;
+	padding:30px;
+	font-family:Freestyle Script;
+	font-size:150%;
+	max-width:1500px;
+	margin:auto;
+	position:center;
+	border-top:5px solid darkred;
+	border-radius:30px;
+	overflow:hidden;
+}
+footer a {
+	color:white;
+	text-decoration:none;
+}
