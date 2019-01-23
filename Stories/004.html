@@ -5,12 +5,13 @@
 	<title>The Shadow Over Innsmouth</title>
 	<meta charset="UTF-8">
 	<link id="styles" rel="stylesheet" style="text/css" href="stories.css">
+	<style id="styleBlock"></style>
 </head>
 
 <body>
 	<header id="top">
 		<nav id="storyNav">
-			<a href="../Index.html">Main </a><a href="../Stories.html"> Stories Index </a><a href="../Contact.html"> Contact Me </a><a href="../About.html"> About</a>
+			<a href="../Stories.html">⮈ Back to Index </a>
 			<button id="darkbut" type="button" onclick="blackCSS()">Dark Mode</button>
 			<button id="lightbut" type="button" onclick="whiteCSS()">Light Mode</button>
 			<button id="redbut" type="button" onclick="redCSS()">Red Mode</button>
@@ -24,7 +25,7 @@
 		</div>
 	</header>
 
-	<section>
+	<section class="storysection">
 		<pre class="storyhold">
 		I
 During the winter of 1927-28 officials of the Federal government made a strange and secret
@@ -1801,15 +1802,18 @@ shall dwell amidst wonder and glory for ever.
 	</footer>
 
 	<script>
-		function blackCSS(){
-			document.getElementById('styles').href ='darkstories.css';
-		}
-		function whiteCSS(){
-			document.getElementById('styles').href ='lightstories.css';
-		}
-		function redCSS(){
-			document.getElementById('styles').href ='stories.css';
-		}
+	  function blackCSS(){
+	    var change1 = ".storysection{background-color:black;} .storyhold{color:white;} header{border-bottom:15px solid black;}  footer{border-top:5px solid black;}"
+	    document.getElementById("styleBlock").innerHTML = change1;
+	  }
+	  function whiteCSS(){
+	    var change2 = ".storysection{background-color:white;} .storyhold{color:black;} header{border-bottom:15px solid white;} footer{border-top:5px solid white;}"
+	    document.getElementById("styleBlock").innerHTML = change2;
+	  }
+	  function redCSS(){
+	    var change3 = ".storysection{background-color:darkred;} .storyhold{color:white;} header{border-bottom:15px solid darkred;} footer{border-top:5px solid darkred;}"
+	    document.getElementById("styleBlock").innerHTML = change3;
+	  }
 	</script>
 </body>
 

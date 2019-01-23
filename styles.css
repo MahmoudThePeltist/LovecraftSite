@@ -1,12 +1,10 @@
+@import "galstyles.css";
+
 body {
-	background-image:url("pics/blackbackpat.png");
-	background-repeat:true;
-	background-color:black;
+	background-color:#111111;
 }
 	
 header{
-	background-image:url("pics/backpat.png");
-	background-repeat:true;
 	background-color:#dd0000;
 	padding:30px;
 	max-width:1500px;
@@ -15,13 +13,13 @@ header{
 	position:center;
 	border-radius:30px;
 	overflow:hidden;
-	border-bottom:15px solid darkred;
+	border-bottom:15px solid rgba(219,219,219,1);
 }
 nav{
 	background-color:#880000;
 	font-size:150%;
 	width:70%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 nav a{
 	font-family:calibri;
@@ -62,26 +60,19 @@ img#banner2{
 	width:60%;
 }
 section{
-	background-color:darkred;
-	padding:30px;
+  background: rgb(219,219,219); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(219,219,219,1) 0%, rgba(114,114,114,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(219,219,219,1) 0%,rgba(114,114,114,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(219,219,219,1) 0%,rgba(114,114,114,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#727272',GradientType=0 ); /* IE6-9 */
+  padding:30px;
 	width:85%;
 	max-width:1200px;
 	margin:auto;
 	position:center;
 	overflow:hidden;
 }
-section.Bestiary{
-	background-color:black;
-	padding:0px;margin:auto;
-	width:100%;
-	max-width:1280px;
-	height:1792px;
-	position:center;
-	overflow:hidden;
-}
-img.Bestiary{
-	position:absolute;
-}
+
 a.maintags img{
 	display:inline block;
 	margin:auto;
@@ -107,12 +98,14 @@ h3 {
 	font-family:calibri;
 	font-size:160%;
 	color:lightgrey;
+	text-shadow:3px 3px 5px black;
 }
 p{
 	font-family:Calibri;
 	font-size:150%;
 	font-stretch: expanded;
 	color:white;
+	text-shadow:3px 3px 5px black;
 }
 ul.contact{
 	font-size:120%;
@@ -153,16 +146,15 @@ ul.stories a:active li{
 }
 ul.stories a{text-decoration:none;color:white;}
 footer{
-	background-image:url("pics/backpat.png");
-	background-repeat:true;
-	background-color:red;
+	background-color:#dd0000;
 	padding:30px;
-	font-family:Freestyle Script;
+	color: white;
+	font-family:"Freestyle Script", "Courier New", Verdana;
 	font-size:150%;
 	max-width:1500px;
 	margin:auto;
 	position:center;
-	border-top:5px solid darkred;
+	border-top:5px solid rgba(114,114,114,1);
 	border-radius:30px;
 	overflow:hidden;
 }

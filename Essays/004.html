@@ -5,13 +5,18 @@
 	<title>Lovecraft on Race</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" style="text/css" href="Essays.css">
+	<style id="styleBlock"></style>
 </head>
 
 <body>
 	<header>
-		<nav>
-			<a href="../Index.php">Main </a><a href="../Essays.html"> Essays Index </a><a href="../Contact.html"> Contact Me </a><a href="../About.html"> About</a>
+		<nav id="essayNav">
+			<a href="../Essays.html">⮈ Back to Index </a>
+			<button id="darkbut" type="button" onclick="blackCSS()">Dark Mode</button>
+			<button id="lightbut" type="button" onclick="whiteCSS()">Light Mode</button>
+			<button id="redbut" type="button" onclick="redCSS()">Red Mode</button>
 			<hr>
+		</nav>
 		</nav>
 		<div class="titlecard">
 			<h1>Lovecraft on Race</h1>
@@ -21,7 +26,7 @@
 		</div>
 	</header>
 	
-	<section>
+	<section class="storysection">
 		<pre class="storyhold">
 highly influential in the nascent science fiction and horror genres.
 Lovecraft’s views on race do not fit easily into any 21st century category. Lovecraft believed that the
@@ -547,6 +552,20 @@ written June 13, 1936.
 		<br>
 		<p>Back to <a href="../Stories.html">story index</a> or go to <a href="#top">Top</a></p>
 	</footer>
+	<script>
+	  function blackCSS(){
+	    var change1 = ".storysection{background-color:black;} .storyhold{color:white;} header{border-bottom:15px solid black;}  footer{border-top:5px solid black;}"
+	    document.getElementById("styleBlock").innerHTML = change1;
+	  }
+	  function whiteCSS(){
+	    var change2 = ".storysection{background-color:white;} .storyhold{color:black;} header{border-bottom:15px solid white;} footer{border-top:5px solid white;}"
+	    document.getElementById("styleBlock").innerHTML = change2;
+	  }
+	  function redCSS(){
+	    var change3 = ".storysection{background-color:darkred;} .storyhold{color:white;} header{border-bottom:15px solid darkred;} footer{border-top:5px solid darkred;}"
+	    document.getElementById("styleBlock").innerHTML = change3;
+	  }
+	</script>
 </body>
 
 </html>

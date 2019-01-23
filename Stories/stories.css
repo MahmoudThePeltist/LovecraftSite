@@ -1,12 +1,8 @@
 body {
-	background-image:url("../pics/blackbackpat.png");
-	background-repeat:true;
-	background-color:black;
+	background-color:#111111;
 }
 
 header{
-	background-image:url("../pics/backpat.png");
-	background-repeat:true;
 	background-color:#dd0000;
 	padding:30px;
 	max-width:1500px;
@@ -66,9 +62,7 @@ section{
 	color:white;
 }
 footer{
-	background-image:url("../pics/backpat.png");
-	background-repeat:true;
-	background-color:red;
+	background-color:#dd0000;
 	padding:30px;
 	font-family:Freestyle Script;
 	font-size:150%;
